@@ -1,0 +1,60 @@
+\hypertarget{input__output__funcs_8c}{}\doxysection{input\+\_\+output\+\_\+funcs.\+c File Reference}
+\label{input__output__funcs_8c}\index{input\_output\_funcs.c@{input\_output\_funcs.c}}
+{\ttfamily \#include \char`\"{}funcs.\+h\char`\"{}}\newline
+Include dependency graph for input\+\_\+output\+\_\+funcs.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{input__output__funcs_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{input__output__funcs_8c_a7f0e42bd1335a9257f5b006181b0fc6c}{input}} (int a\mbox{[}$\,$\mbox{]}, size\+\_\+t $\ast$a\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Функция ввода массива \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{input__output__funcs_8c_a6a474738ca6f69f79d47486ca5ac2bf7}{print}} (const int a\mbox{[}$\,$\mbox{]}, const size\+\_\+t a\+\_\+n)
+\begin{DoxyCompactList}\small\item\em Функция вывода массива \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{input__output__funcs_8c_a7f0e42bd1335a9257f5b006181b0fc6c}\label{input__output__funcs_8c_a7f0e42bd1335a9257f5b006181b0fc6c}} 
+\index{input\_output\_funcs.c@{input\_output\_funcs.c}!input@{input}}
+\index{input@{input}!input\_output\_funcs.c@{input\_output\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{input()}{input()}}
+{\footnotesize\ttfamily int input (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]},  }\item[{size\+\_\+t $\ast$}]{a\+\_\+size }\end{DoxyParamCaption})}
+
+
+
+Функция ввода массива 
+
+Функция заполняет массив целыми числами, введенными с клавиатуры 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & a\mbox{[}\mbox{]} -\/ массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em size\+\_\+t} & $\ast$a\+\_\+n -\/ указатель на кол-\/во элементов массива \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция возвращает код ошибки  
+\end{DoxyReturn}
+\mbox{\Hypertarget{input__output__funcs_8c_a6a474738ca6f69f79d47486ca5ac2bf7}\label{input__output__funcs_8c_a6a474738ca6f69f79d47486ca5ac2bf7}} 
+\index{input\_output\_funcs.c@{input\_output\_funcs.c}!print@{print}}
+\index{print@{print}!input\_output\_funcs.c@{input\_output\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void print (\begin{DoxyParamCaption}\item[{const int}]{a\mbox{[}$\,$\mbox{]},  }\item[{const size\+\_\+t}]{a\+\_\+size }\end{DoxyParamCaption})}
+
+
+
+Функция вывода массива 
+
+Функция выводит элементы массива через пробел 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & a\mbox{[}\mbox{]} -\/ массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em size\+\_\+t} & a\+\_\+n -\/ кол-\/во элементов в массиве \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция ничего не возвращает  
+\end{DoxyReturn}

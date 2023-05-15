@@ -1,0 +1,149 @@
+\hypertarget{work__funcs_8c}{}\doxysection{work\+\_\+funcs.\+c File Reference}
+\label{work__funcs_8c}\index{work\_funcs.c@{work\_funcs.c}}
+{\ttfamily \#include \char`\"{}funcs.\+h\char`\"{}}\newline
+Include dependency graph for work\+\_\+funcs.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{work__funcs_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{work__funcs_8c_a06191fa5a823a69b696da5726627967b}{is\+\_\+prime}} (int num)
+\begin{DoxyCompactList}\small\item\em Проверка числа на простоту \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{work__funcs_8c_aedc9eb8d686f65c453d8b0475fce969a}{is\+\_\+prime\+\_\+test}} ()
+\begin{DoxyCompactList}\small\item\em Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a06191fa5a823a69b696da5726627967b}{is\+\_\+prime()}} \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{work__funcs_8c_acb77602e9c29ce39455543afa5b5f13d}{digit\+\_\+sum}} (int n)
+\begin{DoxyCompactList}\small\item\em Функция считает сумму цифр числа \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{work__funcs_8c_a878f204fed32b1840275ddc0575d3a0c}{digit\+\_\+sum\+\_\+test}} ()
+\begin{DoxyCompactList}\small\item\em Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a878f204fed32b1840275ddc0575d3a0c}{digit\+\_\+sum\+\_\+test()}} \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{work__funcs_8c_ab6907f00c40d23a0bfb7b5952cfca7b3}{add\+\_\+element\+\_\+after}} (int a\mbox{[}$\,$\mbox{]}, size\+\_\+t $\ast$a\+\_\+size, size\+\_\+t index, int new\+\_\+elem)
+\begin{DoxyCompactList}\small\item\em Добавить элемент в массив после указанного индекса \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{work__funcs_8c_a061b152e1ff29d5aa8eff7a83e36ea8c}{add\+\_\+element\+\_\+after\+\_\+test}} ()
+\begin{DoxyCompactList}\small\item\em Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a061b152e1ff29d5aa8eff7a83e36ea8c}{add\+\_\+element\+\_\+after\+\_\+test()}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{work__funcs_8c_a0e46373cedccbdea5756f0ca85eaad76}{add\+\_\+digit\+\_\+count\+\_\+after\+\_\+prime}} (int a\mbox{[}$\,$\mbox{]}, size\+\_\+t $\ast$a\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Добавить в массив после каждого простого элемента сумму цифр данного элемента \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{work__funcs_8c_a0e46373cedccbdea5756f0ca85eaad76}\label{work__funcs_8c_a0e46373cedccbdea5756f0ca85eaad76}} 
+\index{work\_funcs.c@{work\_funcs.c}!add\_digit\_count\_after\_prime@{add\_digit\_count\_after\_prime}}
+\index{add\_digit\_count\_after\_prime@{add\_digit\_count\_after\_prime}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{add\_digit\_count\_after\_prime()}{add\_digit\_count\_after\_prime()}}
+{\footnotesize\ttfamily void add\+\_\+digit\+\_\+count\+\_\+after\+\_\+prime (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]},  }\item[{size\+\_\+t $\ast$}]{a\+\_\+size }\end{DoxyParamCaption})}
+
+
+
+Добавить в массив после каждого простого элемента сумму цифр данного элемента 
+
+Функция добавляет после каждого простого элемента новый элемент численно равный сумме цифр данного простого числа. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & a\mbox{[}\mbox{]} -\/ массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em size\+\_\+t} & a\+\_\+size -\/ количество элементов массива \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция ничего не возвращает  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_ab6907f00c40d23a0bfb7b5952cfca7b3}\label{work__funcs_8c_ab6907f00c40d23a0bfb7b5952cfca7b3}} 
+\index{work\_funcs.c@{work\_funcs.c}!add\_element\_after@{add\_element\_after}}
+\index{add\_element\_after@{add\_element\_after}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{add\_element\_after()}{add\_element\_after()}}
+{\footnotesize\ttfamily int add\+\_\+element\+\_\+after (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]},  }\item[{size\+\_\+t $\ast$}]{a\+\_\+size,  }\item[{size\+\_\+t}]{index,  }\item[{int}]{new\+\_\+elem }\end{DoxyParamCaption})}
+
+
+
+Добавить элемент в массив после указанного индекса 
+
+Функция добавляет новый элемент в массив после переданного индекса. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & a\mbox{[}\mbox{]} -\/ массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em size\+\_\+t} & $\ast$a\+\_\+size -\/ количество элементов массива \\
+\hline
+\mbox{\texttt{ in}}  & {\em size\+\_\+t} & index -\/ индекс, после которого необходимо добавить элемент \\
+\hline
+\mbox{\texttt{ in}}  & {\em int} & new\+\_\+elem -\/ элемент, который надо добавить \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция возвращает код ошибки  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_a061b152e1ff29d5aa8eff7a83e36ea8c}\label{work__funcs_8c_a061b152e1ff29d5aa8eff7a83e36ea8c}} 
+\index{work\_funcs.c@{work\_funcs.c}!add\_element\_after\_test@{add\_element\_after\_test}}
+\index{add\_element\_after\_test@{add\_element\_after\_test}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{add\_element\_after\_test()}{add\_element\_after\_test()}}
+{\footnotesize\ttfamily void add\+\_\+element\+\_\+after\+\_\+test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a061b152e1ff29d5aa8eff7a83e36ea8c}{add\+\_\+element\+\_\+after\+\_\+test()}} 
+
+\begin{DoxyReturn}{Returns}
+Функция выводит количество ошибок в тестах  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_acb77602e9c29ce39455543afa5b5f13d}\label{work__funcs_8c_acb77602e9c29ce39455543afa5b5f13d}} 
+\index{work\_funcs.c@{work\_funcs.c}!digit\_sum@{digit\_sum}}
+\index{digit\_sum@{digit\_sum}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{digit\_sum()}{digit\_sum()}}
+{\footnotesize\ttfamily int digit\+\_\+sum (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Функция считает сумму цифр числа 
+
+Функция считает сумму цифр числа, складывая остатки от деления на 10 и деля число, пока остаток не станет равным нулю. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & n -\/ целое число \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция возвращает сумму цифр числа  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_a878f204fed32b1840275ddc0575d3a0c}\label{work__funcs_8c_a878f204fed32b1840275ddc0575d3a0c}} 
+\index{work\_funcs.c@{work\_funcs.c}!digit\_sum\_test@{digit\_sum\_test}}
+\index{digit\_sum\_test@{digit\_sum\_test}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{digit\_sum\_test()}{digit\_sum\_test()}}
+{\footnotesize\ttfamily void digit\+\_\+sum\+\_\+test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a878f204fed32b1840275ddc0575d3a0c}{digit\+\_\+sum\+\_\+test()}} 
+
+\begin{DoxyReturn}{Returns}
+Функция выводит количество ошибок в тестах  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_a06191fa5a823a69b696da5726627967b}\label{work__funcs_8c_a06191fa5a823a69b696da5726627967b}} 
+\index{work\_funcs.c@{work\_funcs.c}!is\_prime@{is\_prime}}
+\index{is\_prime@{is\_prime}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{is\_prime()}{is\_prime()}}
+{\footnotesize\ttfamily bool is\+\_\+prime (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Проверка числа на простоту 
+
+Функция проверяет, является ли число простым. Если от 2 до корня из числа есть делитель, то число простое, иначе нет. Все числа меньше 2 простыми не считаются. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em int} & num -\/ число для проверки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Функция возвращает признакс простоты (true/false)  
+\end{DoxyReturn}
+\mbox{\Hypertarget{work__funcs_8c_aedc9eb8d686f65c453d8b0475fce969a}\label{work__funcs_8c_aedc9eb8d686f65c453d8b0475fce969a}} 
+\index{work\_funcs.c@{work\_funcs.c}!is\_prime\_test@{is\_prime\_test}}
+\index{is\_prime\_test@{is\_prime\_test}!work\_funcs.c@{work\_funcs.c}}
+\doxysubsubsection{\texorpdfstring{is\_prime\_test()}{is\_prime\_test()}}
+{\footnotesize\ttfamily void is\+\_\+prime\+\_\+test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульные тесты для модуля \mbox{\hyperlink{funcs_8h_a06191fa5a823a69b696da5726627967b}{is\+\_\+prime()}} 
+
+\begin{DoxyReturn}{Returns}
+Функция выводит количество ошибок в тестах  
+\end{DoxyReturn}
